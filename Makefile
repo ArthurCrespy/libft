@@ -24,26 +24,19 @@ CFLAGS	= -Wall -Wextra -Werror
 RM	= rm -f
 
 .c.o:
-	@${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
-	@echo "-- .C file compiled --"
+	${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
 
 ${NAME}:	${OBJS}
-	@${AR} -rc ${LIB} ${OBJS}
-	@echo "-- library created --"
-	@ranlib ${LIB}
-	@echo "-- index added --"
+	${AR} -rc ${LIB} ${OBJS}
+	ranlib ${LIB}
 
 all:	${NAME}
 
 clean:
-	@${RM} ${OBJS}
-	@echo "-- .O files removed --"
-
+	${RM} ${OBJS}
 
 fclean: clean
-	@${RM} ${NAME}
-	@echo "-- assembler output removed --"
-
+	${RM} ${NAME}
 
 re:	fclean all
 
