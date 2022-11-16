@@ -37,17 +37,20 @@ char	*ft_itoa(int n)
 
 	i = ft_len(n) - 1 ;
 	result = ft_calloc(ft_len(n) + 1, sizeof(char));
-	result[ft_len(n) + 1] = 0x00;
 	if (result == NULL)
-		return (0x00);
+		return (NULL);
+	result[ft_len(n) + 1] = 0x00;
+/*	if (n == -2147483648)
+	{
+	}
 	if (n == 0)
-		result[0] = 48;
+		result[0] = 48;*/
 	if (n < 0)
 	{
 		result[0] = '-';
 		n *= -1;
 	}
-	while (n > 0)
+	while (n >= 0)
 	{
 		result[i] = n % 10 + 48;
 		n /= 10;

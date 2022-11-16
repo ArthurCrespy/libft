@@ -17,14 +17,14 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	unsigned int	i;
 
 	i = 0;
-	if (size > 1)
+	if (size >= 1)
 	{
-		while (src[i] != 0x00 && i < size - 1)
+		while (src[i] && i + 1 < size)
 		{
 			dest[i] = src[i];
 			i++;
 		}
-		dest[i] = 0x00;
+		dest[i] = '\0';
 	}
 	return (ft_strlen(src));
 }

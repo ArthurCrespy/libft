@@ -21,11 +21,11 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	i = 0;
 	find = 0;
 	i_little = 0;
-	if (little[i_little] == 0x00)
+	if (!little[i_little])
 		return ((char *)big);
 	if (ft_strlen(little) > len)
-		return (0x00);
-	while (big[i] != 0x00 && little[i_little] != 0x00 && i < len)
+		return (NULL);
+	while (big[i] && little[i_little] && i < len)
 	{
 		if (little[i_little++] == big[i++])
 			find++;
