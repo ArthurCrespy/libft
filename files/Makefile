@@ -11,7 +11,9 @@
 # **************************************************************************** #
 
 SRCS = $(wildcard ft_*.c)
+SRCS_BONUS = $(wildcard ft_*_bonus.c)
 OBJS = ${SRCS:.c=.o}
+OBJS_BONUS = ${SRCS_BONUS:.c=.o}
 LIB = libft.a
 
 NAME = output
@@ -32,6 +34,10 @@ ${NAME}:	${OBJS}
 
 all:	${NAME}
 
+bonus:	${OBJS_BONUS}
+	${AR} -rc ${LIB} ${OBJS_BONUS}
+	ranlib ${LIB}
+
 clean:
 	${RM} ${OBJS}
 
@@ -40,4 +46,4 @@ fclean: clean
 
 re:	fclean all
 
-.PHONY:	all clean fclean re
+.PHONY:	all bonus clean fclean re
