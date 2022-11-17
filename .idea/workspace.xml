@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d0f5a89-8b98-461d-a0b5-de7eee7ed432" name="Changes" comment="Update main, his header, the lib and the output">
+      <change afterPath="$PROJECT_DIR$/divers/blocnotes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/divers/deppt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/ft_lstadd_back_bonus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/ft_lstadd_front_bonus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/ft_lstclear_bonus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/ft_lstdelone_bonus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/ft_lstiter_bonus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/ft_lstlast_bonus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/ft_lstmap_bonus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/ft_lstnew_bonus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/ft_lstsize_bonus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/libft.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/libft_bonus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sujet/fr.subject.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/files/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_atoi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_bzero.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_bzero.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_calloc.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_calloc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isalnum.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_isalnum.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isalpha.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_isalpha.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isascii.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_isascii.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isdigit.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_isdigit.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isincharset.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_isincharset.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isprint.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_isprint.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isspace.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_isspace.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_itoa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_memchr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memcmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_memcmp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_memcpy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memmove.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_memmove.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memset.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_memset.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_putchar_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_putchar_fd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_putendl_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_putendl_fd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_putnbr_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_putnbr_fd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_putstr_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_putstr_fd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_split.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_split.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strcat.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strcat.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strchr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strcmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strcmp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strcpy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strdup.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strdup.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_striteri.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_striteri.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strjoin.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strjoin.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strlcat.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strlcat.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strlcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strlcpy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strlen.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strlen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strmapi.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strmapi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strncmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strncmp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strnstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strnstr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strrchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strrchr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strtrim.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strtrim.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_substr.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_substr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_tablen.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_tablen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_tolower.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_tolower.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_toupper.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_toupper.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/files/libft.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HLhmywNp6AdTIP9aqaSXUBgZJO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/nfs/homes/acrespy/42/42Cursus/42Projets/libft/files/Makefile&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.space&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Makefile Target.Clean">
+    <configuration name="Build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/files/" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="Clean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/files/Makefile" target="" workingDirectory="" arguments="fclean">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="Re" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/files/Makefile" target="" workingDirectory="" arguments="re">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="all" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/files/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="bonus" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/files/Makefile" target="bonus" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Makefile Target.all" />
+      <item itemvalue="Makefile Target.bonus" />
+      <item itemvalue="Makefile Target.Re" />
+      <item itemvalue="Makefile Target.Build" />
+      <item itemvalue="Makefile Target.Clean" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d0f5a89-8b98-461d-a0b5-de7eee7ed432" name="Changes" comment="" />
+      <created>1668070436258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668070436258</updated>
+      <workItem from="1668070447980" duration="29000" />
+      <workItem from="1668070513272" duration="3966000" />
+      <workItem from="1668074607158" duration="8887000" />
+      <workItem from="1668083560064" duration="5649000" />
+      <workItem from="1668091604942" duration="5492000" />
+      <workItem from="1668155999214" duration="8138000" />
+      <workItem from="1668165105358" duration="218000" />
+      <workItem from="1668165354934" duration="34000" />
+      <workItem from="1668165425146" duration="5464000" />
+      <workItem from="1668173487771" duration="7000" />
+      <workItem from="1668185848131" duration="10000" />
+      <workItem from="1668188314716" duration="4655000" />
+      <workItem from="1668242834290" duration="17676000" />
+      <workItem from="1668414852869" duration="12456000" />
+      <workItem from="1668428208601" duration="7926000" />
+      <workItem from="1668489977368" duration="6116000" />
+      <workItem from="1668576537573" duration="17353000" />
+      <workItem from="1668684584639" duration="11622000" />
+      <workItem from="1668696776972" duration="5000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add new functions and update olders">
+      <created>1668159958619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668159958619</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update main and his header">
+      <created>1668159971598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668159971598</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Minor changes of config files and outputs">
+      <created>1668159988606</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668159988606</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Track the library">
+      <created>1668160043160</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668160043160</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add .txt extension">
+      <created>1668260510947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668260510947</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add deepthought extrait in txt file">
+      <created>1668260553100</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668260553100</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add new functions">
+      <created>1668260568270</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668260568270</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Review older functions">
+      <created>1668260589687</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668260589687</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update main, his header, the lib and the output">
+      <created>1668260611052</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668260611052</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/libft-unit-test" />
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
+    <MESSAGE value="Add new functions and update olders" />
+    <MESSAGE value="Update main and his header" />
+    <MESSAGE value="Minor changes of config files and outputs" />
+    <MESSAGE value="Track the library" />
+    <MESSAGE value="Add .txt extension" />
+    <MESSAGE value="Add deepthought extrait in txt file" />
+    <MESSAGE value="Add new functions" />
+    <MESSAGE value="Review older functions" />
+    <MESSAGE value="Update main, his header, the lib and the output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update main, his header, the lib and the output" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
