@@ -1,0 +1,44 @@
+= ft_split.c ===================================================================
+$> norminette ft_split.c | grep -E '(Error|Warning)'
+../exos//ft_split.c: Error!
+Error: MIXED_SPACE_TAB      (line:  29, col:   7):	Mixed spaces and tabs
+Error: BRACE_SHOULD_EOL     (line:  78, col:   1):	Expected newline after brace
+Error: TOO_MANY_LINES       (line:  78, col:   1):	Function has more than 25 lines
+		Norme check failed
+$> clang -Wextra -Wall -Werror -g3 -fsanitize=address ft_split.c main.c libft.a -o user_exe
+
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/main.c:39:41: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+if (!(tabstr = ft_split("          ", ' ')))
+^~~
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/../../../libft.h:52:56: note: passing argument to parameter 'charset' here
+char                    **ft_split(const char *str, char *charset);
+^
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/main.c:53:114: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+if (!(tabstr = ft_split("lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse", ' ')))
+^~~
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/../../../libft.h:52:56: note: passing argument to parameter 'charset' here
+char                    **ft_split(const char *str, char *charset);
+^
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/main.c:67:128: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+if (!(tabstr = ft_split("   lorem   ipsum dolor     sit amet, consectetur   adipiscing elit. Sed non risus. Suspendisse   ", ' ')))
+^~~
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/../../../libft.h:52:56: note: passing argument to parameter 'charset' here
+char                    **ft_split(const char *str, char *charset);
+^
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/main.c:81:283: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+if (!(tabstr = ft_split("lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultricies diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.", 'i')))
+^~~
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/../../../libft.h:52:56: note: passing argument to parameter 'charset' here
+char                    **ft_split(const char *str, char *charset);
+^
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/main.c:95:283: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+if (!(tabstr = ft_split("lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultricies diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.", 'z')))
+^~~
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/../../../libft.h:52:56: note: passing argument to parameter 'charset' here
+char                    **ft_split(const char *str, char *charset);
+^
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/main.c:109:31: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+if (!(tabstr = ft_split("", 'z')))
+^~~
+/mnt/nfs/homes/acrespy/Documents/42/42Cursus/42Projets/libft/libft-war-machine/tests/Part2_functions/ft_split/../../../libft.h:52:56: note: passing argument to parameter 'charset' here
+char                    **ft_split(const char *str, char *charset);
