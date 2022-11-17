@@ -62,10 +62,4 @@ size_t			ft_strlen(const char *s);
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size);
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size);
 
-typedef struct  s_list
-{
-	void            *content;
-	struct s_list   *next;
-} t_list;
-
 #endif
