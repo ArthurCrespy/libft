@@ -14,7 +14,7 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	while (*s != 0x00)
+	while (s && *s != 0x00)
 	{
 		write(fd, s, 1);
 		s++;
