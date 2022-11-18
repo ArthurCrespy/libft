@@ -6,30 +6,31 @@
 /*   By: acrespy <acrespy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 15:32:36 by acrespy           #+#    #+#             */
-/*   Updated: 2022/11/18 09:40:00 by acrespy          ###   ########.fr       */
+/*   Updated: 2022/11/18 13:00:21 by acrespy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft_bonus.h"
+#include "libft.h"
 
-t_list		*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
+t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
-	t_list		*new;
-	t_list		*list;
+	t_list	*new;
+	t_list	*tmp;
 
-	if (!lst)
-		return (NULL);
-	list = f(lst);
-	new = list;
+	if (!lst || !f)
+		return (0x00);
+	new = f(lst);
+	tmp = new;
 	while (lst->next)
 	{
 		lst = lst->next;
-		if (!(list->next = f(lst)))
+		tmp->next = f(lst);
+		if (!tmp->next)
 		{
-			free(list->next);
-			return (NULL);
+			free(tmp->next);
+			return (0x00);
 		}
-		list = list->next;
+		tmp = tmp->next;
 	}
 	return (new);
 }
