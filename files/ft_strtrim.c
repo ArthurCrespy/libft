@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-const int	ft_isincharset(char const *s, char c)
+static int	ft_isincharset(char const *s, char c)
 {
 	int	i;
 
