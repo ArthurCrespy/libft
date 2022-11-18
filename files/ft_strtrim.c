@@ -12,6 +12,20 @@
 
 #include "libft.h"
 
+const int	ft_isincharset(char const *s, char c)
+{
+	int	i;
+
+	i = 0;
+	while (s[i])
+	{
+		if (s[i] == c)
+			return (1);
+		i++;
+	}
+	return (0);
+}
+
 int	trim_length(char const *s1, char const *set)
 {
 	int	i;
