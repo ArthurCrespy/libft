@@ -6,7 +6,7 @@
 /*   By: acrespy <acrespy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 10:35:39 by acrespy           #+#    #+#             */
-/*   Updated: 2022/11/11 09:54:07 by acrespy          ###   ########.fr       */
+/*   Updated: 2022/11/18 09:34:26 by acrespy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		if (str1[i] == str2[i])
 			i++;
 		else
-			break;
+			break ;
 	}
 	return (str1[i] - str2[i]);
 }

@@ -6,16 +6,16 @@
 /*   By: acrespy <acrespy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 14:13:40 by acrespy           #+#    #+#             */
-/*   Updated: 2022/11/10 14:05:14 by acrespy          ###   ########.fr       */
+/*   Updated: 2022/11/18 09:38:18 by acrespy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char  *ft_strchr(const char *s, int c)
+char	*ft_strchr(const char *s, int c)
 {
-	size_t  i;
-	char  *str;
+	size_t	i;
+	char	*str;
 
 	i = 0;
 	str = (char *)s;

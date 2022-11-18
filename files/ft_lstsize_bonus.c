@@ -6,15 +6,15 @@
 /*   By: acrespy <acrespy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 15:12:59 by acrespy           #+#    #+#             */
-/*   Updated: 2022/11/17 15:13:00 by acrespy          ###   ########.fr       */
+/*   Updated: 2022/11/18 09:33:54 by acrespy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft_bonus.h"
 
-int ft_lstsize(t_list *lst)
+int	ft_lstsize(t_list *lst)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (lst)

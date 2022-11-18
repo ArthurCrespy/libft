@@ -6,7 +6,7 @@
 /*   By: acrespy <acrespy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 15:27:21 by acrespy           #+#    #+#             */
-/*   Updated: 2022/11/14 11:44:46 by acrespy          ###   ########.fr       */
+/*   Updated: 2022/11/18 09:41:14 by acrespy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,5 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	if (i == ft_strlen(s) && find == 0)
 		return (NULL);
-
 	return ((char *)s + last);
 }

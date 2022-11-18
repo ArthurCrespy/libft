@@ -6,19 +6,16 @@
 /*   By: acrespy <acrespy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 15:32:36 by acrespy           #+#    #+#             */
-/*   Updated: 2022/11/17 15:32:37 by acrespy          ###   ########.fr       */
+/*   Updated: 2022/11/18 09:40:00 by acrespy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft_bonus.h"
 
-//Iterates over the 'lst' list and applies the 'f' function to the contents of each element. Creates a new list resulting from the successive applications of 'f'. The 'del' function is there to destroy the content of an element if necessary
-
-t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
-
-t_list *new;
-	t_list *first;
+	t_list	*new;
+	t_list	*first;
 
 	if (!lst)
 		return (NULL);
@@ -38,4 +35,5 @@ t_list *new;
 		new = new->next;
 		lst = lst->next;
 	}
-	return (first);}
+	return (first);
+}
