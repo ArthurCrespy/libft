@@ -12,28 +12,24 @@
 
 #include "libft_bonus.h"
 
-t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
+t_list		*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
-	t_list	*new;
-	t_list	*first;
+	t_list		*new;
+	t_list		*list;
 
 	if (!lst)
 		return (NULL);
-	first = ft_lstnew(f(lst->content));
-	if (!first)
-		return (NULL);
-	new = first;
-	lst = lst->next;
-	while (lst)
+	list = f(lst);
+	new = list;
+	while (lst->next)
 	{
-		new->next = ft_lstnew(f(lst->content));
-		if (!new->next)
+		lst = lst->next;
+		if (!(list->next = f(lst)))
 		{
-			ft_lstclear(&first, del);
+			free(list->next);
 			return (NULL);
 		}
-		new = new->next;
-		lst = lst->next;
+		list = list->next;
 	}
-	return (first);
+	return (new);
 }
