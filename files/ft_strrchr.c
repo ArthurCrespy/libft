@@ -25,9 +25,9 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s + ft_strlen(s));
 	while (s[i])
 	{
-		if (s[i] != c)
+		if (s[i] != (char)c)
 			i++;
-		if (s[i] == c)
+		if (s[i] == (char)c)
 		{
 			last = i;
 			find = 1;
