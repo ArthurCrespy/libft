@@ -6,7 +6,7 @@
 /*   By: acrespy <acrespy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 10:43:08 by acrespy           #+#    #+#             */
-/*   Updated: 2022/11/15 06:51:12 by acrespy          ###   ########.fr       */
+/*   Updated: 2022/11/21 17:22:31 by acrespy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*str;
 	size_t	i;
-	size_t length;
+	size_t	length;
 
 	i = 0;
 	length = 0;
