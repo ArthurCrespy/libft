@@ -14,29 +14,29 @@ SRCS = $(wildcard ft_*.c)
 SRCS_BONUS = $(wildcard ft_*_bonus.c)
 OBJS = ${SRCS:.c=.o}
 OBJS_BONUS = ${SRCS_BONUS:.c=.o}
-LIB = libft.a
 
-NAME = output
+NAME = libft.a
 
 CC	= gcc
-AR = ar
-
 CFLAGS	= -Wall -Wextra -Werror
 
-RM	= rm -f
+AR = ar
+ARFLAGS = -rc
+
+RM	= rm -rf
 
 .c.o:
 	${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
 
 ${NAME}:	${OBJS}
-	${AR} -rc ${LIB} ${OBJS}
-	ranlib ${LIB}
+	${AR} ${ARFLAGS} ${NAME} ${OBJS}
+	ranlib ${NAME}
 
 all:	${NAME}
 
 bonus:	${OBJS_BONUS}
-	${AR} -rc ${LIB} ${OBJS_BONUS}
-	ranlib ${LIB}
+	${AR} ${ARFLAGS} ${NAME} ${OBJS_BONUS}
+	ranlib ${NAME}
 
 clean:
 	${RM} ${OBJS}
