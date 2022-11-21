@@ -18,15 +18,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0f5a89-8b98-461d-a0b5-de7eee7ed432" name="Changes" comment="Modify prototype">
-      <change beforePath="$PROJECT_DIR$/.idea/libft.iml" beforeDir="false" />
+    <list default="true" id="9d0f5a89-8b98-461d-a0b5-de7eee7ed432" name="Changes" comment="Fix issues on while loop">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ft_strchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strchr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ft_substr.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_substr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ft_toupper.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_toupper.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ft_memcmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_memcmp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ft_strlcat.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strlcat.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/files/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/files/libft.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,19 +57,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/mnt/nfs/homes/acrespy/42/42Cursus/42Projets/libft/files/Makefile&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.space&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/mnt/nfs/homes/acrespy/42/42Cursus/42Projets/libft/files/Makefile",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/exos" />
@@ -160,7 +157,7 @@
       <workItem from="1668696776972" duration="935000" />
       <workItem from="1668760051231" duration="4029000" />
       <workItem from="1668772018830" duration="5866000" />
-      <workItem from="1669023468002" duration="11492000" />
+      <workItem from="1669023468002" duration="20006000" />
     </task>
     <task id="LOCAL-00001" summary="Add new functions and update olders">
       <created>1668159958619</created>
@@ -421,7 +418,91 @@
       <option name="project" value="LOCAL" />
       <updated>1669041459775</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add new line for Norminette">
+      <created>1669041500502</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1669041500502</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Fix 42Header">
+      <created>1669041534742</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1669041534742</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Update xml config. files from CLion">
+      <created>1669041599884</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1669041599884</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Fix prototype unsigned int too size_t and align">
+      <created>1669041639081</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1669041639081</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Remove iml config. files from CLion">
+      <created>1669041668958</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1669041668958</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Update main.c and his lib">
+      <created>1669041689473</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669041689473</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Fix substr malloc issue">
+      <created>1669047605214</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1669047605214</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Fix strl prototype unsigned int to size_t and align">
+      <created>1669047776285</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1669047776285</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Fix Norminette issue">
+      <created>1669047804068</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1669047804068</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add CMakeList.txt">
+      <created>1669047862674</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1669047862674</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Prevent Makefile to relink on all">
+      <created>1669049244155</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1669049244155</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Fix issues">
+      <created>1669052348446</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1669052348446</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,33 +534,46 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/libft-unit-test" />
       <path value="$PROJECT_DIR$/../../.." />
+      <path value="$PROJECT_DIR$/files/libft-war-machine" />
+      <path value="$PROJECT_DIR$/files/libftTester" />
     </ignored-roots>
-    <MESSAGE value="Add bonus header" />
-    <MESSAGE value="Add subject" />
-    <MESSAGE value="Add compiled library" />
-    <MESSAGE value="Add main" />
-    <MESSAGE value="Moved libft header to files/" />
-    <MESSAGE value="Moved Makefile to files/" />
-    <MESSAGE value="Moved all the ft_*.c functions to files/" />
-    <MESSAGE value="Add xml config. files from CLion to .idea/" />
-    <MESSAGE value="Norminette fixes" />
-    <MESSAGE value="Modify and optimize lstmap" />
-    <MESSAGE value="Remove unattended functions" />
-    <MESSAGE value="Remove unattended header (bonus)" />
     <MESSAGE value="Protect segmentation fault" />
     <MESSAGE value="Change the header declaration from libft_bonus.h to libft.h" />
     <MESSAGE value="Protect from malloc error" />
     <MESSAGE value="Add unattended functions and protect it with const" />
     <MESSAGE value="Remove unattended functions declaration" />
     <MESSAGE value="Change unattended function from funct to const funct" />
-    <MESSAGE value="Update xml config. files from CLion" />
     <MESSAGE value="Change const to static" />
     <MESSAGE value="Fix problem when c was superior to the ascii table by making an int to char conversion" />
     <MESSAGE value="Fix problem when c was superior to the ascii table by making an int to char conversion" />
     <MESSAGE value="Fix lstmap" />
     <MESSAGE value="Remove unattended function" />
     <MESSAGE value="Modify prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify prototype" />
+    <MESSAGE value="Add new line for Norminette" />
+    <MESSAGE value="Fix 42Header" />
+    <MESSAGE value="Update xml config. files from CLion" />
+    <MESSAGE value="Fix prototype unsigned int too size_t and align" />
+    <MESSAGE value="Remove iml config. files from CLion" />
+    <MESSAGE value="Update main.c and his lib" />
+    <MESSAGE value="Fix substr malloc issue" />
+    <MESSAGE value="Fix strl prototype unsigned int to size_t and align" />
+    <MESSAGE value="Fix Norminette issue" />
+    <MESSAGE value="Add CMakeList.txt" />
+    <MESSAGE value="Prevent Makefile to relink on all" />
+    <MESSAGE value="Fix issues" />
+    <MESSAGE value="Fix issues on while loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix issues on while loop" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/files/ft_memcmp.c</url>
+          <line>34</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
