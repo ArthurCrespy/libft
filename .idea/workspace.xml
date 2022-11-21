@@ -3,16 +3,31 @@
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
-  <component name="CMakeSettings">
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="libft" targetName="libft" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug-Coverage" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0f5a89-8b98-461d-a0b5-de7eee7ed432" name="Changes" comment="Change unattended function from funct to const funct">
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+    <list default="true" id="9d0f5a89-8b98-461d-a0b5-de7eee7ed432" name="Changes" comment="Modify prototype">
+      <change beforePath="$PROJECT_DIR$/.idea/libft.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ft_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_itoa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ft_strchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strchr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ft_substr.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_substr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ft_toupper.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_toupper.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/files/libft.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/files/libft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +37,20 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Coverage" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="cidr-memory-view://2" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.4" />
   </component>
   <component name="ProjectId" id="2HLhmywNp6AdTIP9aqaSXUBgZJO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -57,7 +81,17 @@
       <recent name="$PROJECT_DIR$/exos" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile Target.Clean">
+  <component name="RunManager" selected="CMake Application.libft">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="libft" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libft" TARGET_NAME="libft" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libft" RUN_TARGET_NAME="libft">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
       <makefile filename="$PROJECT_DIR$/files/" target="" workingDirectory="" arguments="">
         <envs />
@@ -89,6 +123,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="CMake Application.libft" />
       <item itemvalue="Makefile Target.all" />
       <item itemvalue="Makefile Target.bonus" />
       <item itemvalue="Makefile Target.Re" />
@@ -124,7 +159,8 @@
       <workItem from="1668684584639" duration="11622000" />
       <workItem from="1668696776972" duration="935000" />
       <workItem from="1668760051231" duration="4029000" />
-      <workItem from="1668772018830" duration="1874000" />
+      <workItem from="1668772018830" duration="5866000" />
+      <workItem from="1669023468002" duration="11492000" />
     </task>
     <task id="LOCAL-00001" summary="Add new functions and update olders">
       <created>1668159958619</created>
@@ -336,7 +372,56 @@
       <option name="project" value="LOCAL" />
       <updated>1668773896148</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Update xml config. files from CLion">
+      <created>1668773933284</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668773933284</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Change const to static">
+      <created>1668774029799</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668774029799</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Fix problem when c was superior to the ascii table by making a char conversion">
+      <created>1669025650551</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1669025650551</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fix problem when c was superior to the ascii table by making an int to char conversion">
+      <created>1669025754631</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1669025754631</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Fix lstmap">
+      <created>1669039580383</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1669039580384</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Remove unattended function">
+      <created>1669039601836</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1669039601836</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Modify prototype">
+      <created>1669041459775</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1669041459775</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,13 +454,6 @@
       <path value="$PROJECT_DIR$/libft-unit-test" />
       <path value="$PROJECT_DIR$/../../.." />
     </ignored-roots>
-    <MESSAGE value="Add .txt extension" />
-    <MESSAGE value="Add deepthought extrait in txt file" />
-    <MESSAGE value="Add new functions" />
-    <MESSAGE value="Review older functions" />
-    <MESSAGE value="Update main, his header, the lib and the output" />
-    <MESSAGE value="Add bonus functions" />
-    <MESSAGE value="Add notes" />
     <MESSAGE value="Add bonus header" />
     <MESSAGE value="Add subject" />
     <MESSAGE value="Add compiled library" />
@@ -394,10 +472,20 @@
     <MESSAGE value="Add unattended functions and protect it with const" />
     <MESSAGE value="Remove unattended functions declaration" />
     <MESSAGE value="Change unattended function from funct to const funct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change unattended function from funct to const funct" />
+    <MESSAGE value="Update xml config. files from CLion" />
+    <MESSAGE value="Change const to static" />
+    <MESSAGE value="Fix problem when c was superior to the ascii table by making an int to char conversion" />
+    <MESSAGE value="Fix problem when c was superior to the ascii table by making an int to char conversion" />
+    <MESSAGE value="Fix lstmap" />
+    <MESSAGE value="Remove unattended function" />
+    <MESSAGE value="Modify prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify prototype" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="../../../../../../42/42Cursus/42Projets/libft/cmake-build-debug-coverage" NAME="libft Coverage Results" MODIFIED="1669026611115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="gcov/llvm" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
