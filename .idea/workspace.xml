@@ -19,12 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d0f5a89-8b98-461d-a0b5-de7eee7ed432" name="Changes" comment="Fix issues on while loop">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ft_memcmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_memcmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ft_strlcat.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/ft_strlcat.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/files/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/files/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +33,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Coverage" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://2" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,19 +50,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/mnt/nfs/homes/acrespy/42/42Cursus/42Projets/libft/files/Makefile",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/nfs/homes/acrespy/42/42Cursus/42Projets/libft&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/exos" />
@@ -79,11 +72,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.libft">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="libft" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libft" TARGET_NAME="libft" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libft" RUN_TARGET_NAME="libft">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -158,6 +146,9 @@
       <workItem from="1668760051231" duration="4029000" />
       <workItem from="1668772018830" duration="5866000" />
       <workItem from="1669023468002" duration="20006000" />
+      <workItem from="1669110813941" duration="28000" />
+      <workItem from="1669111024131" duration="178000" />
+      <workItem from="1669111234530" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="Add new functions and update olders">
       <created>1668159958619</created>
