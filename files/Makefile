@@ -26,7 +26,7 @@ OBJS_BONUS = ${SRCS_BONUS:.c=.o}
 
 NAME = libft.a
 
-CC	= gcc
+CC	= cc
 CFLAGS	= -Wall -Wextra -Werror
 
 AR = ar
