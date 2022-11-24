@@ -49,6 +49,7 @@ bonus:	${OBJS_BONUS}
 
 clean:
 	${RM} ${OBJS}
+	${RM} ${OBJS_BONUS}
 
 fclean: clean
 	${RM} ${NAME}
