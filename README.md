@@ -131,7 +131,7 @@ For now, all rights are reserved.
     <a href="https://github.com/ArthurCrespy"> <img alt="Made by ArthurCrespy" src="https://img.shields.io/badge/made%20by-ArthurCrespy-blue"></a>
     <a href="https://42.fr"><img alt="42 Website" src="https://img.shields.io/badge/website-42.fr-blue"></a>
     <br>
-    Github <a href="https://github.com/ArthurCrespy" about="blank">@Thur'</a> |
-    LinkedIn<a href="https://fr.linkedin.com/in/crespyarthur" about="blank"> @Arthur Crespy</a> |
-    Instagram<a href="https://instagram.com/arthurcrespy" about="blank"> @crespyarthur</a> 
+    Github <a href="https://github.com/ArthurCrespy" target="_blank">@Thur'</a> |
+    LinkedIn<a href="https://fr.linkedin.com/in/crespyarthur" target="_blank"> @Arthur Crespy</a> |
+    Instagram<a href="https://instagram.com/arthurcrespy" target="_blank"> @crespyarthur</a> 
 </p>
