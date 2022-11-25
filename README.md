@@ -11,17 +11,18 @@
 <h4 align="center">This project is about coding a C library. It will contain a lot of general purpose functions.</a></h4>
 
 <p align="center">
-    <img alt="Language" src="https://img.shields.io/badge/language-C-green">
+    <img alt="Language: C" src="https://img.shields.io/badge/language-C-green">
     <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/ArthurCrespy/libft">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ArthurCrespy/libft">
-    <img alt="GitHub last commit" src="https://img.shields.io/badge/result-125/100-brightgreen">
+    <img alt="Result: 125/100" src="https://img.shields.io/badge/result-125/100-brightgreen">
   
 </p>
 
 <p align="center">
   <a href="#introduction">Introduction</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#related">Related</a> •
+  <a href="#about-42-cursus">About 42 Cursus</a> •
+  <a href="#you-may-also-like">Related</a> •
   <a href="#license">License</a>
 </p>
 
