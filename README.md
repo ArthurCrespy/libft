@@ -51,18 +51,24 @@ $ make
 
 The library is compiled and ready to use.
 
+## About 42 Cursus
+
+This project is the first of the Cursus. It allows you to remember the basics of the C language seen in the Piscine. It's the only project of Core00 and unlocks Core01. The library will be reused in future projects
+
 ## You may also like...
 
-- [get_next_line](https://github.com/ArthurCrespy/get_next_line) - Because reading from an fd is not exciting
-- [ft_printf](https://github.com/ArthurCrespy/ft_printf) - Because ft_putnbr() and ft_putstr() are not enough
+- [get_next_line](https://github.com/ArthurCrespy/get_next_line) - Because reading from an fd is not exciting (coming soon)
+- [ft_printf](https://github.com/ArthurCrespy/ft_printf) - Because ft_putnbr() and ft_putstr() are not enough (coming soon)
 
 ## License
 
-For the moment, all rights are reserved.
+For now, all rights are reserved.
 
 ---
-
-> GitHub [@Thur'](https://github.com/ArthurCrespy) &nbsp;&middot;&nbsp;
-> LinkedIn [@Arthur Crespy](https://fr.linkedin.com/in/arthur-crespy-3007081b7) &nbsp;&middot;&nbsp;
-> Instagram [@crespyarthur](https://instagram.com/crespyarthur)
-
+<p align="center">
+    <a href="https://github.com/ArthurCrespy"> <img alt="Made by ArthurCrespy" src="https://img.shields.io/badge/made%20by-ArthurCrespy-blue"></a>
+    <br><br>
+    Github <a href="https://github.com/ArthurCrespy">@Thur'</a> |
+    LinkedIn<a href="https://www.linkedin.com/in/arthur-crespy/"> @Arthur Crespy</a> |
+    Instagram<a href="https://instagram.com/arthurcrespy"> @crespyarthur</a> 
+</p>
