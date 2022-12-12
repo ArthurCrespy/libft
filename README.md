@@ -120,7 +120,7 @@ This project is the first of the Cursus. It allows you to remember the basics of
 ## You may also like...
 
 - [get_next_line](https://github.com/ArthurCrespy/get_next_line) - Because reading from an fd is not exciting - (coming soon)
-- [ft_printf](https://github.com/ArthurCrespy/ft_printf) - Because ft_putnbr() and ft_putstr() are not enough - (coming soon)
+- [ft_printf](https://github.com/ArthurCrespy/ft_printf) - Because ft_putnbr() and ft_putstr() are not enough
 
 ## License
 
