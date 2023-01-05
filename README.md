@@ -12,7 +12,7 @@
 
 <p align="center">
     <a href="https://github.com/ArthurCrespy/libft/search?l=c"> <img alt="Language: C" src="https://img.shields.io/badge/language-C-orange"></a>
-    <a href="https://github.com/ArthurCrespy/libft"> <img alt="Lines of code: 1.6k" src="https://img.shields.io/badge/total%20lines-1.6k-blue"></a>
+        <a href="https://github.com/ArthurCrespy/ft_printf"> <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/ArthurCrespy/libft"></a>
     <a href="https://github.com/ArthurCrespy/libft/commits"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ArthurCrespy/libft?color=yellow"></a>
     <a href="https://github.com/ArthurCrespy/libft/watchers"> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/ArthurCrespy/libft?color=ff69b4"></a>
     <a href="https://projects.intra.42.fr/42cursus-libft/acrespy"> <img alt="Result: 125/100" src="https://img.shields.io/badge/result-125/100-brightgreen"></a>
