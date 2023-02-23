@@ -43,7 +43,7 @@ $ git clone https://github.com/ArthurCrespy/libft
 $ git clone git@github.com:ArthurCrespy/libft.git
 
 # Go into the repository
-$ cd libft
+$ cd libft/files/
 
 # Run the Makefile
 $ make
